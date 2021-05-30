@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.home {
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    /* height: 50px; */
+
+}
+
+.home h3 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: "Fantasy";
+    font-size: 60px;
+    text-shadow: 0 0 5px #000;
+    width: 50%;
+
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.bg1 {
+    background-image: url("./../img/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what-happening {
+    position: relative;
+    height: 80vh;
+    background-color: #f2f2f2;
+    /* margin-top: 70px; */
+
+}
+
+.what-happening h1 {
+    text-align: center;
+    
+}
+
+.what-happening section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    margin-top: 70px;
+
+}
+
+.box {
+    position: relative;
+    height: 80vh;
+    width: 24%;
+    margin: 20px;
+}
+
+.happening-image {
+    background-color: rgb(150, 28, 28);
+    height: 200px;
+    width: 100%;
+
+}
+
+.happening-image img {
+    height: 200px;
+    width: 100%;
+}
+
+.txt h1 {
+    text-align: left;
+}
+
+.quote {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote h1 {
+    font-size: 50px;
+}
+
+.bg2 {
+    background-image: url("./../img/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.latest-work {
+    position: relative;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.latest-work h1 {
+    text-align: center;
+
+}
+
+.latest-work section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.box2 {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+}
+
+.box2 img {
+    height: 250px;
+    width: 350px;
+}
+
+.latest-image {
+    background-color: rgb(150, 28, 28);
+    height: 250px;
+    width: 100%;
+
+}
+
+.btn2 {
+    background-color: rgba(85, 163, 137, 0.733);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.port {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.logo {
+    height: auto;
+    background-color: white;
+}
+
+.logo h1 {
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img {
+    width: 300px;
+}
+
+.footer {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.foot {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: "Fantasy";
+    width: 50%;
+}
