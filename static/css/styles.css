@@ -22,7 +22,8 @@ body {
 }
 
 .home h3 {
-
+    margin-top: 200px;
+    font-size: 50px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -45,7 +46,7 @@ body {
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
 }
 
 .btn2 {
@@ -85,6 +86,7 @@ body {
     font-family: 'Times New Roman', serif;
     font-size: 18px;
 }
+
 .what-happening section {
     display: flex;
     justify-content: center;
@@ -126,14 +128,15 @@ body {
 }
 
 .section h1 {
-    font-size: 50px;
-    padding-top: 100px;
+    font-size: 36px;
+    padding-top: 200px;
 }
 
 .bg2 {
     background-image: url("./../img/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
 }
 
 
@@ -236,4 +239,4 @@ body {
     .box2 {
         margin: 40px;
     }
-  }
+}
