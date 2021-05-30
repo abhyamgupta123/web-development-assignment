@@ -6,6 +6,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    background-color: #f2f2f2;
 }
 
 .home {
@@ -44,6 +45,15 @@ body {
     border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 150px;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .btn:hover {
@@ -61,15 +71,20 @@ body {
     position: relative;
     height: 80vh;
     background-color: #f2f2f2;
-    /* margin-top: 70px; */
+    margin-top: 70px;
 
 }
 
 .what-happening h1 {
     text-align: center;
-    
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
 }
 
+.what-happening p {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
 .what-happening section {
     display: flex;
     justify-content: center;
@@ -108,11 +123,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.quote h1 {
+.section h1 {
     font-size: 50px;
+    padding-top: 100px;
 }
 
 .bg2 {
@@ -154,7 +169,6 @@ body {
 }
 
 .latest-image {
-    background-color: rgb(150, 28, 28);
     height: 250px;
     width: 100%;
 
@@ -178,6 +192,7 @@ body {
 .logo {
     height: auto;
     background-color: white;
+    padding-top: 30px;
 }
 
 .logo h1 {
@@ -192,11 +207,14 @@ body {
 
 .logos img {
     width: 300px;
+    filter: grayscale(100%);
 }
 
 .footer {
     position: relative;
-    height: 400px;
+    /*height: 400px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,3 +231,9 @@ body {
     font-family: "Fantasy";
     width: 50%;
 }
+
+@media only screen and (min-width: 1500px) {
+    .box2 {
+        margin: 40px;
+    }
+  }
